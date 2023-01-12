@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(0, 247, 255)30%, rgba(84, 251, 13, 0.764))
+}
+
+.contineur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: white; */
+    /* width: fit-content; */
+    width: 650px;
+    margin: 50px auto;
+
+}
+
+
+.contineur form {
+    width: 500px;
+    margin-left: -20px;
+
+}
+
+
+.contineur form input::placeholder {
+    color: white;
+}
+
+.contineur form input {
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: 1px solid cadetblue;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+ul {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px auto;
+    width: 650px;
+    list-style-type: none;
+}
+
+.contineur button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+}
+
+.main_toDoListe {
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+    margin: 20px auto;
+    width: 650px;
+    position: relative;
+
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    border-bottom: 1px solid cadetblue;
+    padding: 20px;
+    margin: 5px;
+}
+
+ul li p {
+    width: 400px;
+    color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 27px;
+    margin-left: -50px;
+
+
+}
+
+ul li:last-child {
+    border-bottom: none;
+    padding: 20px;
+    /* margin: 10px; */
+
+}
+
+.remove_button {
+    position: absolute;
+    right: 30px;
+    border: none;
+    background-color: cadetblue;
+    padding: 05px 15px;
+    color: white;
+    margin: -30px 5px
+}
+
+.makes_line_in_it {
+    text-decoration: line-through;
+
+}
+
+body h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 8px;
+    font-size: 80px;
+}
+
+.clearButton {
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px calc(50% - 50px);
+}
